@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: slategrey;
+    background-image: url(BG.png);
+    background-size: cover;
+  }
+  
+  /* Reset padding and margin for all elements */
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #nav-bar {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(1, 1, 1, 0.8);
+  }
+  
+  .ul {
+    /* Removed background-color property */
+    width: auto;
+    height: 100%;
+    float: left;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    color: white;
+  }
+  
+  li {
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+    display: inline-block;
+    /* Removed background-color property */
+    height: 100%;
+    width: 300px;
+    text-align: center;
+    line-height: 3;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    list-style: none;
+  }
+  
+  .name-massage {
+    color: brown;
+  }
+  
+  .email-massage {
+    color: brown;
+  }
+  
+  .passwor-massage {
+    color: brown;
+  }
+  
+  .repeatPasswor-massage {
+    color: brown;
+  }
+  
+  .phone-massage {
+    color: brown;
+  }
+  
+  table {
+    margin-top: 100px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 30px;
+  }
+  
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: rgba(1, 1, 1, 0.7);
+    color: white;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  #box-login {
+    position: relative;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    /* Removed background-color property */
+    width: 50%;
+  }
+  
+  /* Labels edited in login page */
+  .labels-Centering {
+    color: rgba(255, 255, 255, 1.0);
+    /* Removed background-color property */
+    margin-bottom: 10px;
+    font-size: 30px;
+    width: 560px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .labels-Centering input {
+    /* Removed background-color property */
+    width: 300px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  
+  .xx {
+    background-color: green;
+  }
+  

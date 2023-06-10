@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+  
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+<!-- NavBar -->
+<div id="nav-bar">
+
+
+        <ul>
+            <li><a href="index.html" style="color: white;">Home</a></li>
+                <li><a href= "login.html" style="color: white;">Login</a></li>
+                    <li><a href= "register.html" style="color: white;">Register</a></li>
+
+
+        </ul>
+
+
+</div>
+
+
+<form action="/action_page.php" >
+
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <div class="labels-Centering">
+        <h1>Register</h1>
+            <br>
+        <p>Please fill in this form to create an account.</p>
+        </div>
+        
+        <div class="labels-Centering">
+        <label for="name"><b>Name</b></label>
+            <br>
+        <input type="text" placeholder="Enter name" name="name" id="name" required>
+        <div class="name-massage"></div>
+        </div>
+      
+        <div class="labels-Centering">
+        <label for="email"><b>Email</b></label>
+            <br>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+        <div class="email-massage"></div>
+        </div>
+        
+        <div class="labels-Centering">
+        <label for="psw"><b>Password</b></label>
+            <br>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+        <div class="passwor-massage"></div>
+        </div>
+        
+        <div class="labels-Centering">
+        <label for="pswr"><b>Repeat Password</b></label>
+            <br>
+        <input type="password" placeholder="Repeat Password" name="pswr" id="pswr" required>
+        <div class="repeatPasswor-massage"></div>
+        </div>
+
+        <div class="labels-Centering">
+        <label for="Phone"><b>Phone:</b></label>
+            <br>
+        <input type="number" placeholder="Enter your phone number" id="Phone" name="Phone">
+        <div class="phoneInput"></div>
+        <div class="phone-massage"></div>
+
+        <br>
+        <button id="Btn-submit" type="subbmit" class="registerbtn"  style="position: relative; left: 25%; transform: translateX(-50%);font-size: 30px;">Register</button>
+
+        </div>
+
+    <div class="labels-Centering">
+        <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+    </div>
+
+</form>
+
+
+
+
+
+<script src="site.js"></script>
+</body>
+</html>

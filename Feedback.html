@@ -1,0 +1,127 @@
+<html>
+    <head> <link rel="style" href="/style.css"> </head>
+    <!--  
+سلطان داود كسارالشعبة 
+442019402  
+نظري 1/عملي 2  
+------------------------------------
+محمد عبدالله الحريقي
+441000554 
+نظري 1/عملي 1 
+------------------------------------
+ريان مشبب القحطاني
+441013319 
+نظري 1/عملي 1  
+-----------------------------
+عبدالله احمد خضران الزهراني
+نظري 1/عملي 1 
+441015535
+-->
+    
+    
+    
+    
+    <body>
+        
+   <link rel="stylesheet" href="style.css">
+      <link rel="script" href= "site.js">
+        
+         
+      <div id="nav-bar">
+
+
+        <ul>
+            <li><a href="index.html" style="color: white;">Home</a></li>
+                <li><a href= "login.html" style="color: white;">log out</a></li>
+                    <li><a href= "register.html" style="color: white;">feedback</a></li>
+
+
+        </ul>
+
+
+</div>
+        
+        
+        
+        <table style="width:100%" class="">
+  <tr>
+    <th>room number</th>
+    <th>room type</th>
+    <th>Availability</th>
+    <th>booking date</th>
+    <th>Exit date</th>
+    <th>Name of the person</th>
+    <th>Mobile number</th>
+    <th>ID</th>
+    <th>price</th>
+  </tr>
+  <tr><!-- 1 -->
+    <td>510</td><!-- room number -->
+    <td> 2 room </td>  <!-- room type -->
+    <td class="Yes-No">y</td>  <!-- Availability -->
+    <td>2022/07/02</td>  <!-- booking date -->
+    <td>2022/07/07</td>  <!-- Exit date -->
+    <td>Abdullah</td>  <!-- Name of the person -->
+    <td>+966543440979</td>  <!-- Mobile number -->
+    <td>110414****</td>  <!-- ID -->
+    <td>800 SAR</td>  <!-- price -->
+  </tr>
+               
+</table>
+        
+        
+        <script>
+            
+            var yesNo = document.getElementsByClassName("Yes-No");
+            var l = "asd";
+            
+            function YesNoFunction(){
+            for(var i = 0; i < 8; i++){
+                
+                yesNo[i].style.color = "white";
+                
+                if(yesNo[i].innerHTML == "y"){
+                    
+                   yesNo[i].style.backgroundColor = "#27ae60"; 
+                    yesNo[i].classList.add("xx");
+                    
+                }else if(yesNo[i].innerHTML == "n"){
+                    
+                   yesNo[i].style.backgroundColor = "#c0392b"; 
+                    yesNo[i].classList.add("xx");
+                    
+                }else{
+                    
+                }
+                
+            }
+                
+            }
+            YesNoFunction();
+            
+            var td = document.getElementsByTagName("td");
+            
+
+            
+            for(var i = 0; i < 72; i++){
+                
+                td[i].setAttribute("index",i);
+                
+                td[i].setAttribute("onclick","findIndex(this)");
+                
+            }
+            
+            function findIndex(s){
+
+                var k = prompt();
+
+                td[s.getAttribute("index")].innerHTML = k;
+                
+                YesNoFunction();
+                
+            }
+            
+            
+        </script>
+    </body>
+</html>
